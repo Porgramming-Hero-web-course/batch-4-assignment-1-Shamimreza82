@@ -8,12 +8,6 @@ const countWordOccurrences = (sentence: string, word: string) => {
     
 }
 
-
-
-
-// countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript")
-
-
 console.log(countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript "));
 
 
