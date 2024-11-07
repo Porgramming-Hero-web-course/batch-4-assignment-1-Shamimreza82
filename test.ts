@@ -17,24 +17,24 @@
 // console.log(strOrNumber("REZA1254"));  // I am String Value: REZA1254
 
 
-type Student = { 
-    id: number; 
-    name: string; 
-}
+// type Student = { 
+//     id: number; 
+//     name: string; 
+// }
 
-type Student2 = {
-    age: number; 
-    email: string
-}
+// type Student2 = {
+//     age: number; 
+//     email: string
+// }
 
-type NewStudent = Student & Student2    /// Student and Student2 they make a  New Types thats both 
+// type NewStudent = Student & Student2    /// Student and Student2 they make a  New Types thats both 
 
-const student: NewStudent = {
-    id: 12345, 
-    name: "Shamim Reza", 
-    age: 30, 
-    email: "shamimreza@gmail.com"
-}
+// const student: NewStudent = {
+//     id: 12345, 
+//     name: "Shamim Reza", 
+//     age: 30, 
+//     email: "shamimreza@gmail.com"
+// }
 
 //
 

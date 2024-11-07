@@ -9,6 +9,5 @@ const sumArray = (number: number[]) : number => {
 console.log(sumArray([1, 2, 3, 4, 5]));
 
 
-//// Solved
 //
 }
