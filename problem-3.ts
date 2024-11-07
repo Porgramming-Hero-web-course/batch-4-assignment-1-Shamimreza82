@@ -1,6 +1,5 @@
 {
 //  
-//////////////////////////////////// PROBLEM TRY LATER
 
 const countWordOccurrences = (sentence: string, word: string) => {
     const convertToLowerCase = sentence.toLowerCase().split(' ')
@@ -8,7 +7,7 @@ const countWordOccurrences = (sentence: string, word: string) => {
     
 }
 
-console.log(countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript "));
+console.log(countWordOccurrences("I love typescript", "typescript"))
 
 
 

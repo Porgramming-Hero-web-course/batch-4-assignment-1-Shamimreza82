@@ -12,6 +12,5 @@
   console.log(getProperty(person, "name"));
 
 
-  ////Solved
   //
 }

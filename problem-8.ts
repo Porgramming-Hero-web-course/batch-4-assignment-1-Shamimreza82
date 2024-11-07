@@ -1,4 +1,5 @@
 {
+//
 
 type Person = {
     name: string; 
@@ -27,9 +28,7 @@ console.log(validateKeys(person, ["name", "email"])); // Output: false
 
 
 
-
-
-
+//
 
 
 }
