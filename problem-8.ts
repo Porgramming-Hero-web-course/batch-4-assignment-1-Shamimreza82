@@ -14,15 +14,15 @@ const person : Person = {
 }
 
 
-function validateKeys<T >(obj: T, keys: (keyof T)[]): boolean {
-    const result = keys.every(key => key in obj);
+function validateKeys<T>(obj: T, keys: (keyof T)[]): boolean {
+    const result = keys.reduce((value, key) => value && key in obj, true);
     return result;
 }
     
 
 
 console.log(validateKeys(person, ["name", "age"])); // Output: true
-console.log(validateKeys(person, ["name", "email"])); // Output: false
+console.log(validateKeys(person, ["name", "gander"])); // Output: false
 
 
 
