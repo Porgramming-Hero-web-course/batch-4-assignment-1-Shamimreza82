@@ -9,7 +9,7 @@
     return value1[value2];
   };
 
-  console.log(getProperty(person, "name"));
+
 
 
   //

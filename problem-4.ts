@@ -24,14 +24,7 @@
     }
 
 
-console.log(calculateShapeArea({
-    shape: "rectangle",
-    width: 4,
-    height: 6,
-  }));
 
-
-console.log(calculateShapeArea({ shape: "circle", radius: 5 }));
 
 
     //

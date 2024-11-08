@@ -20,10 +20,7 @@ const updateProfile = (profile: Profile, updates: Partial<Profile>) => {
     return updated; 
 }
 
-console.log(updateProfile(myProfile, {age: 89}));
 
-
-  ////Solved
 
   //
 }

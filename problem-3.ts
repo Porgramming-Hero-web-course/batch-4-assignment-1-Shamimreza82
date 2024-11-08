@@ -7,8 +7,6 @@ const countWordOccurrences = (sentence: string, word: string) => {
     
 }
 
-console.log(countWordOccurrences("I love typescript", "typescript"))
-
 
 
 

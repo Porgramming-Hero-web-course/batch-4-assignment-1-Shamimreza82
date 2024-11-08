@@ -21,10 +21,6 @@ function validateKeys<T>(obj: T, keys: (keyof T)[]): boolean {
     
 
 
-console.log(validateKeys(person, ["name", "age"])); // Output: true
-console.log(validateKeys(person, ["name", "gander"])); // Output: false
-
-
 
 
 
